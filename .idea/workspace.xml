@@ -1,179 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e3c60ef8-74ab-4829-8381-f945c2a3ccc2" name="Default Changelist" comment="图书管理系统第一次提交author@WangChi">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/httpRequests/2019-07-11T010307.404.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/httpRequests/2019-07-11T010329.404.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/httpRequests/2019-07-11T010429.404.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/httpRequests/2019-07-11T010515.404.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/httpRequests/2019-07-11T010517.404.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/httpRequests/2019-07-11T010839.404.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/httpRequests/2019-07-11T011646.200.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/httpRequests/2019-07-11T011945.500.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/httpRequests/2019-07-11T012238.200.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/httpRequests/2019-07-11T012309.200.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/httpRequests/2019-07-11T020002.500.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/httpRequests/2019-07-11T020309.200.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/httpRequests/2019-07-11T020802.200.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/httpRequests/2019-07-11T112048.404.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/httpRequests/2019-07-11T112108.404.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/httpRequests/2019-07-11T112124.200.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/httpRequests/2019-07-11T112145.200.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/httpRequests/2019-07-11T112150.200.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/httpRequests/2019-07-11T112301.200.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/httpRequests/2019-07-11T113521.404.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/httpRequests/2019-07-11T113530.404.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/httpRequests/2019-07-11T113535.200.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/httpRequests/2019-07-11T113635.200.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/httpRequests/2019-07-11T113708.200.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/httpRequests/2019-07-11T113750.405.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/httpRequests/2019-07-11T113807.200.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/httpRequests/2019-07-11T113848.405.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/httpRequests/2019-07-11T113904.200.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/httpRequests/2019-07-11T114009.500.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/httpRequests/http-requests-log.http" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_2_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_core_1_2_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_classmate_1_4_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_9_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_9_9.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_9_9.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jdk8_2_9_9.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jsr310_2_9_9.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_parameter_names_2_9_9.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_jayway_jsonpath_json_path_2_4_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_vaadin_external_google_android_json_0_0_20131108_vaadin1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_zaxxer_HikariCP_3_2_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_annotation_javax_annotation_api_1_3_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_validation_validation_api_2_0_1_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_12.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_8_0_16.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_1_9_13.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_agent_1_9_13.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_minidev_accessors_smart_1_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_minidev_json_smart_2_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_api_2_11_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_to_slf4j_2_11_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_core_9_0_21.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_el_9_0_21.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_websocket_9_0_21.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_assertj_assertj_core_3_11_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_attoparser_attoparser_2_0_5_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_library_1_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_validator_hibernate_validator_6_0_17_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_logging_jboss_logging_3_3_2_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mockito_mockito_core_2_23_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_3_5_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_spring_2_0_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_spring_boot_mybatis_spring_boot_autoconfigure_2_0_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_spring_boot_mybatis_spring_boot_starter_2_0_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_objenesis_objenesis_2_6.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_ow2_asm_asm_5_0_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_skyscreamer_jsonassert_1_5_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_jul_to_slf4j_1_7_26.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_26.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_2_1_6_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_2_1_6_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_2_1_6_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_jdbc_2_1_6_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_json_2_1_6_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_logging_2_1_6_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_test_2_1_6_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_thymeleaf_2_1_6_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_tomcat_2_1_6_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_web_2_1_6_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_2_1_6_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_autoconfigure_2_1_6_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_5_1_8_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_5_1_8_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_5_1_8_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_5_1_8_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_5_1_8_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jcl_5_1_8_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jdbc_5_1_8_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_test_5_1_8_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_tx_5_1_8_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_5_1_8_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webmvc_5_1_8_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_thymeleaf_extras_thymeleaf_extras_java8time_3_0_4_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_thymeleaf_thymeleaf_3_0_11_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_thymeleaf_thymeleaf_spring5_3_0_11_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_unbescape_unbescape_1_1_6_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_xmlunit_xmlunit_core_2_6_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_yaml_snakeyaml_1_23.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bms.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/readme.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/wangchi/firstspringboot/bms/BmsApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/wangchi/firstspringboot/bms/beans/Book.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/wangchi/firstspringboot/bms/beans/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/wangchi/firstspringboot/bms/beans/UserBook.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/wangchi/firstspringboot/bms/config/BeansConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/wangchi/firstspringboot/bms/controllers/BookController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/wangchi/firstspringboot/bms/controllers/LendAndRepayController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/wangchi/firstspringboot/bms/controllers/TimeController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/wangchi/firstspringboot/bms/controllers/UserBookController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/wangchi/firstspringboot/bms/controllers/UserController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/wangchi/firstspringboot/bms/dao/BookDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/wangchi/firstspringboot/bms/dao/UserBookDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/wangchi/firstspringboot/bms/dao/UserDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/wangchi/firstspringboot/bms/service/BookService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/wangchi/firstspringboot/bms/service/TimeService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/wangchi/firstspringboot/bms/service/UserBookService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/wangchi/firstspringboot/bms/service/UserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/wangchi/firstspringboot/bms/service/impl/BookServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/wangchi/firstspringboot/bms/service/impl/TimeServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/wangchi/firstspringboot/bms/service/impl/UserBookServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/wangchi/firstspringboot/bms/service/impl/UserServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/SQL/bms.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/mappers/BookMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/mappers/UserBookMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/mappers/UserMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/mybatis.config.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/login.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/main.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/wangchi/firstspringboot/bms/BmsApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/wangchi/firstspringboot/bms/BmsApplication.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/wangchi/firstspringboot/bms/beans/Book.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/wangchi/firstspringboot/bms/beans/User.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/wangchi/firstspringboot/bms/beans/UserBook.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/wangchi/firstspringboot/bms/config/BeansConfig.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/wangchi/firstspringboot/bms/controllers/BookController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/wangchi/firstspringboot/bms/controllers/LendAndRepayController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/wangchi/firstspringboot/bms/controllers/TimeController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/wangchi/firstspringboot/bms/controllers/UserBookController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/wangchi/firstspringboot/bms/controllers/UserController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/wangchi/firstspringboot/bms/dao/BookDao.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/wangchi/firstspringboot/bms/dao/UserBookDao.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/wangchi/firstspringboot/bms/dao/UserDao.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/wangchi/firstspringboot/bms/service/BookService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/wangchi/firstspringboot/bms/service/TimeService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/wangchi/firstspringboot/bms/service/UserBookService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/wangchi/firstspringboot/bms/service/UserService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/wangchi/firstspringboot/bms/service/impl/BookServiceImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/wangchi/firstspringboot/bms/service/impl/TimeServiceImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/wangchi/firstspringboot/bms/service/impl/UserBookServiceImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/wangchi/firstspringboot/bms/service/impl/UserServiceImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/mappers/BookMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/mappers/UserBookMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/mappers/UserMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/mybatis.config.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/com/wangchi/firstspringboot/bms/BmsApplicationTests.class" afterDir="false" />
-    </list>
+    <list default="true" id="e3c60ef8-74ab-4829-8381-f945c2a3ccc2" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/.idea/httpRequests/" />
@@ -1356,8 +1184,16 @@
       <workItem from="1562737650692" duration="12434000" />
       <workItem from="1562754801292" duration="17714000" />
       <workItem from="1562803813467" duration="21526000" />
-      <workItem from="1562892188481" duration="1633000" />
+      <workItem from="1562892188481" duration="2302000" />
     </task>
+    <task id="LOCAL-00001" summary="图书管理系统第一次提交author@WangChi">
+      <created>1562898185061</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1562898185061</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1393,7 +1229,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="53307000" />
+    <option name="totallyTimeSpent" value="53976000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1406,6 +1242,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49854228" visible="true" weight="0.21447721" />
       <window_info id="Structure" order="1" sideWeight="0.50145775" side_tool="true" weight="0.21447721" />
@@ -1426,7 +1263,7 @@
       <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49932975" weight="0.32956153" />
       <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50067025" side_tool="true" weight="0.31966054" />
-      <window_info active="true" anchor="bottom" id="Messages" order="11" visible="true" weight="0.3286119" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.3286119" />
       <window_info anchor="bottom" id="Java Enterprise" order="12" />
       <window_info anchor="bottom" id="Database Changes" order="13" />
       <window_info anchor="bottom" id="Version Control" order="14" />
