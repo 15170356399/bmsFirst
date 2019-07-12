@@ -1,0 +1,7 @@
+{
+  "timestamp": "2019-07-11T06:00:02.155+0000",
+  "status": 500,
+  "error": "Internal Server Error",
+  "message": "nested exception is org.apache.ibatis.reflection.ReflectionException: There is no getter for property named 'user' in 'class com.wangchi.firstspringboot.bms.beans.User'",
+  "path": "/payIn/1001/2"
+}

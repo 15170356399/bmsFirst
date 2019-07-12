@@ -1,0 +1,7 @@
+{
+  "timestamp": "2019-07-11T03:37:50.107+0000",
+  "status": 405,
+  "error": "Method Not Allowed",
+  "message": "Request method 'GET' not supported",
+  "path": "/book/add"
+}

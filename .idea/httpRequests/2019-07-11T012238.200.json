@@ -1,0 +1,24 @@
+{
+  "user": {
+    "name": "wang",
+    "password": "123456",
+    "money": null,
+    "id": 1001
+  },
+  "books": [
+    {
+      "name": "java",
+      "price": "50",
+      "amount": 9,
+      "id": 10001
+    },
+    {
+      "name": "mybatis",
+      "price": "40",
+      "amount": 10,
+      "id": 10002
+    }
+  ],
+  "date": "2019-07-24T16:00:00.000+0000",
+  "id": 1001
+}

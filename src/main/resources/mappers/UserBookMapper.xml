@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.wangchi.firstspringboot.bms.dao.UserBookDao">
+    <select id="findUserBookByUserId" resultMap="findUserBookByUserIdResultMap">
+        select u.Id,u.`name`,u.`password`,u.money,b.id as bId ,b.`name` as bname,b.price,b.amount,date
+        from userbook ub INNER JOIN book b  INNER JOIN user u on ub.user_id=u.Id and ub.book_id=b.id and u.id=#{userId};
+    </select>
+
+    <resultMap id="findUserBookByUserIdResultMap" type="com.wangchi.firstspringboot.bms.beans.UserBook">
+        <id property="Id" column="Id" javaType="int" />
+            <result property="date" column="date" javaType="Date"/>
+        <!--使用association映射为一个实体对象-->
+        <association property="user" column="user_id" resultMap="userResultMap"/>
+        <!--映射为一个集合-->
+        <collection property="books" column="book_id" javaType="ArrayList" ofType="Book" resultMap="bookResultMap"/>
+    </resultMap>
+    <resultMap id="userResultMap" type= "com.wangchi.firstspringboot.bms.beans.User">
+        <id property="Id" column="Id" />
+        <result property="name" column="name"></result>
+        <result property="password" column="password"/>
+        <result property="money" column="money"/>
+    </resultMap>
+    <resultMap id="bookResultMap" type= "com.wangchi.firstspringboot.bms.beans.Book">
+        <id property="Id" column="bId" />
+        <result property="name" column="bname"></result>
+        <result property="price" column="price"/>
+        <result property="amount" column="amount"/>
+    </resultMap>
+    <!-- 使用书号查询哪些读者借阅，暂未实现-->
+    <select id="findUserBookByBookId" resultMap="findUserBookByBookIdResultMap">
+        select user_id,book_id from UserBook where book_id = #{BookId}
+    </select>
+
+    <resultMap id="findUserBookByBookIdResultMap" type="com.wangchi.firstspringboot.bms.beans.UserBook">
+        <id property="user.Id" column="user_Id" />
+        <collection property="books" javaType="list" ofType="Book" >
+            <id property="Id" column="book_id" />
+        </collection>
+    </resultMap>
+    <insert id="insertUserBook"  useGeneratedKeys="true" keyProperty="Id" keyColumn="id">
+        insert into UserBook (id,user_id,book_id,date) values
+        <foreach collection="books" item="book" separator=",">
+            (#{id},#{user.Id},#{book.Id},#{date})
+        </foreach>
+    </insert>
+    <delete id="deleteUserBook">
+
+                delete from userbook  where user_id=#{userId} and book_id=#{bookId}
+
+    </delete>
+</mapper>

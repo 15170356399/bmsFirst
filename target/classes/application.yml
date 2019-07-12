@@ -1,0 +1,14 @@
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/bms
+    username: root
+    password: 123456
+
+#整合Mybatis
+mybatis:
+  #  扫描数据持久对应的实体类 路径 Package级别
+  type-aliases-package: com.wangchi.firstspringboot.bms.beans
+  #  mybatis 对应的 .xml文件路径
+  mapper-locations: classpath:mappers/*.xml
+  config-location: classpath:mybatis.config.xml
+#  多层级目录  mapper-locations: classpath:mapper/**/**.xml

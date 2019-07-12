@@ -1,0 +1,7 @@
+{
+  "timestamp": "2019-07-11T03:40:09.241+0000",
+  "status": 500,
+  "error": "Internal Server Error",
+  "message": "\r\n### Error updating database.  Cause: java.sql.SQLIntegrityConstraintViolationException: Column 'date' cannot be null\r\n### The error may exist in file [C:\\Users\\池\\.IntelliJIdea2019.1\\bms\\target\\classes\\mappers\\UserBookMapper.xml]\r\n### The error may involve defaultParameterMap\r\n### The error occurred while setting parameters\r\n### SQL: insert into UserBook (id,user_id,book_id,date) values                        (?,?,?,?)\r\n### Cause: java.sql.SQLIntegrityConstraintViolationException: Column 'date' cannot be null\n; Column 'date' cannot be null; nested exception is java.sql.SQLIntegrityConstraintViolationException: Column 'date' cannot be null",
+  "path": "/lendandrepay/lendbook/1003/10001"
+}

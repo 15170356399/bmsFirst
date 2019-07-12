@@ -1,0 +1,7 @@
+{
+  "timestamp": "2019-07-11T05:19:45.441+0000",
+  "status": 500,
+  "error": "Internal Server Error",
+  "message": "nested exception is org.apache.ibatis.reflection.ReflectionException: Could not set property 'date' of 'class com.wangchi.firstspringboot.bms.beans.UserBook' with value 'Thu Jul 25 00:00:00 CST 2019' Cause: java.lang.IllegalArgumentException: argument type mismatch",
+  "path": "/userbook/get/1001"
+}

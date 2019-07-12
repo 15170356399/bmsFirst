@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.wangchi.firstspringboot.bms.dao.UserDao">
+    <select id="findUserById" resultType="com.wangchi.firstspringboot.bms.beans.User">
+    select * from User where id = #{id}
+  </select>
+    <insert id="insertUser" >
+        insert into User(Id,name,password,money) values(#{Id},#{name},#{password},#{money})
+    </insert>
+    <delete id="deleteUser">
+        delete from user where id=#{id}
+    </delete>
+    <update id="updateUser">
+        update user set money=#{money} where id=#{Id}
+
+    </update>
+</mapper>
