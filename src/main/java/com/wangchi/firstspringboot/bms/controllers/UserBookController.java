@@ -5,10 +5,7 @@ import com.wangchi.firstspringboot.bms.dao.UserBookDao;
 import com.wangchi.firstspringboot.bms.service.UserBookService;
 import com.wangchi.firstspringboot.bms.service.impl.UserBookServiceImpl;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.PathVariable;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
 @RestController
 @RequestMapping("/userbook")
@@ -16,8 +13,8 @@ public class UserBookController {
     @Autowired
     private UserBookService userBookService;
 
-    @GetMapping("get/{id}")
-    public UserBook getUserBookByUserId(@PathVariable("id") int id){
+    @GetMapping("get")
+    public UserBook getUserBookByUserId(@RequestParam("id") int id){
         return userBookService.findUserBookByUserId(id);
     }
 }

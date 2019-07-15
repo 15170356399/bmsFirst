@@ -15,19 +15,19 @@ public class BookController {
     private BookService bookService;
 
 
-    @GetMapping("/get/{id}")
-    public Book getBook(@PathVariable("id")  int id){
+    @GetMapping("/get")
+    public Book getBook(@RequestParam("id") int id){
         return bookService.getBook(id);
     }
 
-    @PostMapping("/add")
+    @PostMapping(value = "/add")
     public Book insertBook(Book book){
         bookService.addBook(book);
         return  book ;
     }
 
-    @DeleteMapping("/delete/{id}")
-    public String deleteBook(@PathVariable("id") int id){
+    @DeleteMapping("/delete")
+    public String deleteBook(@RequestParam("id") int id){
         bookService.deleteBook(id);
         return "删除成功";
     }

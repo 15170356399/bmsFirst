@@ -1,13 +1,20 @@
 package com.wangchi.firstspringboot.bms.beans;
 
 
+import com.fasterxml.jackson.annotation.JsonFormat;
+import org.springframework.format.annotation.DateTimeFormat;
+
 import java.util.*;
+import java.util.regex.Pattern;
 
 public class UserBook {
 
     private int Id;
     private User user;
     private List<Book> books;
+
+    @JsonFormat(pattern = "yyyy-MM-dd" ,timezone = "GMT+8")
+    @DateTimeFormat(pattern = "yyyy-MM-dd")
     private Date date;//还书日期；
 
     public int getId() {

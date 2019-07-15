@@ -1,6 +1,9 @@
 spring:
+  thymeleaf:
+    prefix: classpath:templates/
+    suffix: .html
   datasource:
-    url: jdbc:mysql://localhost:3306/bms
+    url: jdbc:mysql://localhost:3306/bms?serverTimezone=UTC
     username: root
     password: 123456
 

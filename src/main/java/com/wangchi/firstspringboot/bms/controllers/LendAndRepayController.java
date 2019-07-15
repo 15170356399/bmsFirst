@@ -23,25 +23,31 @@ public class LendAndRepayController {
     private UserBookService userBookService;
 
     @Transactional
-    @PostMapping("/lendbook/{UserBook}")
-    public void lendBook(@PathVariable("UserBook") UserBook userBook){
+    @PostMapping("/lendbook")
+    public String lendBook(UserBook userBook){
+//        System.out.println("lendBook.....");
+        //System.out.println(myJson);
         try {
             for (Book book : userBook.getBooks())
                 bookService.lendBook(book.getId());
             userBookService.insertUserBook(userBook);
         }catch (Exception e){
             //此处抛出书已被借完错误
+            System.out.println("lendBook..failed");
+            return "借书失败";
         }
+        return "借书成功";
    }
 
    @Transactional
-    @PostMapping("/repaybook/{UserBook}")
-    public void repayBook(@PathVariable("UserBook") UserBook userBook){
+    @PostMapping("/repaybook")
+    public String repayBook(UserBook userBook){
 
         for(Book book:userBook.getBooks()){
             bookService.repayBook(book.getId());
             userBookService.deleteUserBook(userBook.getUser().getId(),book.getId());
         }
+        return "借书成功";
     }
 
 
