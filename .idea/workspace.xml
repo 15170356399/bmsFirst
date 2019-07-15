@@ -2,16 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e3c60ef8-74ab-4829-8381-f945c2a3ccc2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/wangchi/firstspringboot/bms/config/WebConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/wangchi/firstspringboot/bms/config/interceptors/LoginInterceptor.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/wangchi/firstspringboot/bms/config/BeansConfig.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/wangchi/firstspringboot/bms/controllers/LoginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/wangchi/firstspringboot/bms/controllers/LoginController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/main.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/main.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/wangchi/firstspringboot/bms/config/BeansConfig.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/wangchi/firstspringboot/bms/controllers/LendAndRepayController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/wangchi/firstspringboot/bms/controllers/LendAndRepayController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/wangchi/firstspringboot/bms/controllers/TimeController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/wangchi/firstspringboot/bms/controllers/TimeController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/wangchi/firstspringboot/bms/controllers/UserBookController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/wangchi/firstspringboot/bms/controllers/UserBookController.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -92,11 +83,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/templates/main.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-182">
-              <caret line="11" column="39" selection-start-line="11" selection-start-column="39" selection-end-line="11" selection-end-column="39" />
+            <state relative-caret-position="168">
+              <caret line="7" column="6" lean-forward="true" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/readme.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="275">
+              <caret line="11" column="29" selection-start-line="11" selection-start-column="29" selection-end-line="11" selection-end-column="29" />
             </state>
           </provider>
         </entry>
@@ -115,18 +115,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="173">
               <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/wangchi/firstspringboot/bms/controllers/TimeController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="14" column="5" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="9" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -170,7 +158,6 @@
         <option value="$PROJECT_DIR$/src/main/java/com/wangchi/firstspringboot/bms/service/TimeService.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/wangchi/firstspringboot/bms/service/impl/TimeServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/main/resources/mappers/UserMapper.xml" />
-        <option value="$PROJECT_DIR$/readme.txt" />
         <option value="$PROJECT_DIR$/src/main/resources/mappers/BookMapper.xml" />
         <option value="$PROJECT_DIR$/src/test/java/com/wangchi/firstspringboot/bms/BmsApplicationTests.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/wangchi/firstspringboot/bms/controllers/UserController.java" />
@@ -194,6 +181,7 @@
         <option value="$PROJECT_DIR$/src/main/java/com/wangchi/firstspringboot/bms/config/WebConfig.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/wangchi/firstspringboot/bms/controllers/LoginController.java" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/main.html" />
+        <option value="$PROJECT_DIR$/readme.txt" />
       </list>
     </option>
   </component>
@@ -205,8 +193,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="280" />
-    <option name="y" value="55" />
+    <option name="x" value="85" />
+    <option name="y" value="25" />
     <option name="width" value="1750" />
     <option name="height" value="980" />
   </component>
@@ -283,14 +271,6 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="bms" type="b2602c69:ProjectViewProjectNode" />
-              <item name="bms" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -1266,7 +1246,7 @@
       <workItem from="1562803813467" duration="21526000" />
       <workItem from="1562892188481" duration="11259000" />
       <workItem from="1562984667913" duration="14041000" />
-      <workItem from="1563149827439" duration="6731000" />
+      <workItem from="1563149827439" duration="8588000" />
     </task>
     <task id="LOCAL-00001" summary="图书管理系统第一次提交author@WangChi">
       <created>1562898185061</created>
@@ -1296,7 +1276,21 @@
       <option name="project" value="LOCAL" />
       <updated>1563152059872</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="图书管理系统第三次提交&#10;添加了拦截器&#10;使用配置视图解析来实现url跳转&#10;author@WangChi">
+      <created>1563157599068</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1563157599068</updated>
+    </task>
+    <task id="LOCAL-00006" summary="图书管理系统第四次提交&#10;测试修改github用户名之后的提交&#10;author@WangChi">
+      <created>1563160577623</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1563160577623</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1332,7 +1326,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="83705000" />
+    <option name="totallyTimeSpent" value="85562000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1450,7 +1444,9 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="图书管理系统第一次提交author@WangChi" />
     <MESSAGE value="图书管理系统第二次提交&#10;添加了简易前端页面&#10;author@WangChi" />
-    <option name="LAST_COMMIT_MESSAGE" value="图书管理系统第二次提交&#10;添加了简易前端页面&#10;author@WangChi" />
+    <MESSAGE value="图书管理系统第三次提交&#10;添加了拦截器&#10;使用配置视图解析来实现url跳转&#10;author@WangChi" />
+    <MESSAGE value="图书管理系统第四次提交&#10;测试修改github用户名之后的提交&#10;author@WangChi" />
+    <option name="LAST_COMMIT_MESSAGE" value="图书管理系统第四次提交&#10;测试修改github用户名之后的提交&#10;author@WangChi" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1471,13 +1467,6 @@
     </watches-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/wangchi/firstspringboot/bms/service/BookService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="7" column="20" lean-forward="true" selection-start-line="7" selection-start-column="20" selection-end-line="7" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://F:/JDK/lib/src.zip!/java.base/java/lang/Integer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="358">
@@ -1887,8 +1876,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/templates/main.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-182">
-          <caret line="11" column="39" selection-start-line="11" selection-start-column="39" selection-end-line="11" selection-end-column="39" />
+        <state relative-caret-position="168">
+          <caret line="7" column="6" lean-forward="true" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/readme.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="11" column="29" selection-start-line="11" selection-start-column="29" selection-end-line="11" selection-end-column="29" />
         </state>
       </provider>
     </entry>
