@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<form action="/lendandrepay/repaybook" method="post">
+<input type="text" name="user.Id"><!--支持级联属性绑定-->
+<input type="text" name="books[0].Id"><!--使用数组名加位置的方式来绑定数组对象-->
+<!-- <input type="text" name="Id">-->
+    <input type="hidden" name="date" value="2019-01-01">
+<button type="submit" onclick="click()" onsubmit="click()">提交</button>
+</form>
+</body>
+</html>
